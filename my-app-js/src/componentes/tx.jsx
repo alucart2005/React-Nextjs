@@ -1,4 +1,4 @@
-import {useMutation} from 'react-query'
+import {useMutation} from '@tanstack/react-query'
 
 export function Tx() {
     const {mutate, isLoading, isError} = useMutation( () => {

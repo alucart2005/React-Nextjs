@@ -1,13 +1,13 @@
-import {useQuery} from 'react-query'
+import {useQuery} from '@tanstack/react-query'
 
 export function List() {
 
-    const {data, isLoading, isError} = 
-    
-    useQuery(["query1"], () => {
+    const {data, isLoading, isError} =
+
+    useQuery({ queryKey: ["query1"], queryFn: () => {
         return [1,2,3,4,5,6,7,8,9]
         //throw new Error("aa")
-    })
+    } })
     if (isError) {
         return <div>Error...</div>
     }
