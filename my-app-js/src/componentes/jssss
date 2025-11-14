@@ -27,3 +27,14 @@
     "isRefetchError": false,
     "isStale": true
 }
+
+{
+    "error": null,
+    "failureCount": 0,
+    "isPaused": false,
+    "status": "success",
+    "isLoading": false,
+    "isSuccess": true,
+    "isError": false,
+    "isIdle": false
+}

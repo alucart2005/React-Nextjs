@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Home } from './componentes/Home.jsx'
 import { List } from './componentes/List.jsx'
 import {QueryClient, QueryClientProvider} from 'react-query'
+import { Tx } from './componentes/tx.jsx'
 
 const queryClient = new QueryClient()
 
@@ -21,7 +22,7 @@ createRoot(document.getElementById('root')).render(
             <Route path='/productos' element={<h2>desde productos</h2>}/>
             <Route path='/clientes' element={<h2>desde clientes</h2>}/>
             <Route path='/list' element={<List/>}/>
-            <Route path='/provedores' element={<h2>desde provedores</h2>}/>
+            <Route path='/tx' element={<Tx/>}/>
           </Route>
       </Routes>
     </BrowserRouter>
