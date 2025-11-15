@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My App JS
 
 ## Overview
@@ -160,3 +161,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 - [Vite](https://vitejs.dev/) - Build tool.
 - [TanStack Query](https://tanstack.com/query/latest) - Data management.
 - Open-source community for the tools and libraries used.
+=======
+.
+>>>>>>> 97032cc726c9366c49ea3f3339e0120f703ce4c3
