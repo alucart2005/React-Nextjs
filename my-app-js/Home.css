@@ -1,0 +1,14 @@
+.todo {
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+}
+

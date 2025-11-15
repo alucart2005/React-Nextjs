@@ -1,0 +1,40 @@
+{
+    "status": "success",
+    "isLoading": false,
+    "isSuccess": true,
+    "isError": false,
+    "isIdle": false,
+    "data": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+    ],
+    "dataUpdatedAt": 1763007451104,
+    "error": null,
+    "errorUpdatedAt": 0,
+    "failureCount": 0,
+    "errorUpdateCount": 0,
+    "isFetched": true,
+    "isFetchedAfterMount": true,
+    "isFetching": false,
+    "isRefetching": false,
+    "isLoadingError": false,
+    "isPlaceholderData": false,
+    "isPreviousData": false,
+    "isRefetchError": false,
+    "isStale": true
+}
+
+{
+    "error": null,
+    "failureCount": 0,
+    "isPaused": false,
+    "status": "success",
+    "isLoading": false,
+    "isSuccess": true,
+    "isError": false,
+    "isIdle": false
+}
